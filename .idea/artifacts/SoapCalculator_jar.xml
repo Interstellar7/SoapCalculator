@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SoapCalculator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SoapCalculator_jar</output-path>
+    <root id="archive" name="SoapCalculator.jar">
+      <element id="module-output" name="SoapCalculator" />
+    </root>
+  </artifact>
+</component>
