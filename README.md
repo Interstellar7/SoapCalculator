@@ -1,11 +1,11 @@
-# WebCalculator with SOAP and REST
-web service for testing soap and rest remote procedures
-Сервис для тестирования удалённых процедур с помощью SOAP и REST.
+# SoapCalculator
+web service for testing soap remote procedures
+Сервис для тестирования удалённых процедур через протокол SOAP.
 
-Приложение разбито на 2 модуля: SoapCalculator и RestCalculator.
 В папке product находятся готовые к запуску решения (jar, настройки, батники).
 
-УСТАНОВКА НА ЛОКАЛЬНОЙ МАШИНЕ (пример для SoapCalculator)
+УСТАНОВКА НА ЛОКАЛЬНОЙ МАШИНЕ
+
 1. Установить движок Java (JRE 1.8).
 2. Скопировать папку product\SoapCalculator в любое место.
 3. При необходимости поменять сервер порт или URI в файле конфигурации (res\soap-settings.properties).
@@ -14,6 +14,7 @@ web service for testing soap and rest remote procedures
 который указан в логе запуска (по умолчанию - http://localhost:8080/soapcalc?wsdl).
 
 РАБОТА СЕРВИСА
+
 Тестируем SOAP с помощью SoapUI. Создаём новый Soap проект. Задаём любое имя и указываем wsdl (см. выше).
 Все методы сервиса появятся автоматически. Также автоматически сгенерируются запросы к этим методам в виде xml.
 В xml любого метода подставляем числовые значения и отправляем запрос. В ответном xml увидим результат вычисления.
