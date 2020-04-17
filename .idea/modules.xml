@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RestCalculator/RestCalculator.iml" filepath="$PROJECT_DIR$/RestCalculator/RestCalculator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SoapCalculator/SoapCalculator.iml" filepath="$PROJECT_DIR$/SoapCalculator/SoapCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoapCalculator.iml" filepath="$PROJECT_DIR$/SoapCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebCalculator.iml" filepath="$PROJECT_DIR$/WebCalculator.iml" />
     </modules>
   </component>
