@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class CalculatorPublisher {
+    public static int NUMBERS_AFTER_COMA = 2;
 
     public static void main(String[] args) {
         String server;
@@ -20,6 +21,7 @@ public class CalculatorPublisher {
             server = properties.getProperty("server");
             port = properties.getProperty("port");
             uri = properties.getProperty("uri");
+            NUMBERS_AFTER_COMA = Integer.parseInt(properties.getProperty("numbersAfterComa"));
             System.out.println("Settings loaded successful");
         } catch(IOException e) {  // дефолтные значения
             server = "localhost";

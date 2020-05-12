@@ -12,14 +12,14 @@ public interface IService {
     String Hello(String name);
 
     @WebMethod
-    double Addition(double a, double b);
+    String Addition(String a, String b);
 
     @WebMethod
-    double Subtraction(double a, double b);
+    String Subtraction(String a, String b);
 
     @WebMethod
-    double Multiplication(double a, double b);
+    String Multiplication(String a, String b);
 
     @WebMethod
-    double Division(double a, double b);
+    String Division(String a, String b);
 }
